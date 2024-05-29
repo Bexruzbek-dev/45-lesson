@@ -7,32 +7,32 @@ class NoteController {
         title: "Salom",
         text: "17:00 dushanba shanba",
         iscomplited: false,
-        date: "2024-04-22 13:55"),
+        date: "2024-04-30 20:45"),
     Note(
         title: "Nima",
         text: "17:00 dushanba shanba",
         iscomplited: true,
-        date: "2024-04-22 13:55"),
+        date: "2024-04-30 20:45"),
     Note(
         title: "Dars qilish",
         text: "17:00 dushanba shanba",
         iscomplited: false,
-        date: "2024-04-22 13:55"),
+        date: "2024-04-30 20:45"),
     Note(
         title: "Suzish",
         text: "17:00 dushanba shanba",
         iscomplited: true,
-        date: "2024-04-22 13:55"),
+        date: "2024-04-30 20:45"),
     Note(
         title: "Kitob o'qish",
         text: "17:00 dushanba shanba",
         iscomplited: false,
-        date: "2024-04-22 13:55"),
+        date: "2024-04-30 20:45"),
     Note(
         title: "Kimdir",
         text: "17:00 dushanba shanba",
         iscomplited: true,
-        date: "2024-04-22 13:55"),
+        date: "2024-04-30 20:45"),
   ];
 
   List<Note> get list {
