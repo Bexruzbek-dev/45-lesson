@@ -4,33 +4,33 @@ import 'package:uzgaruvchi/utils/extensions/extension.dart';
 class NoteController {
   final List<Note> _list = [
     Note(
-        title: "darslar",
-        text: "17:00 duahnba shanba",
+        title: "Salom",
+        text: "17:00 dushanba shanba",
         iscomplited: false,
         date: "2024-04-22 13:55"),
     Note(
-        title: "darslar1",
-        text: "17:00 duahnba shanba",
+        title: "Nima",
+        text: "17:00 dushanba shanba",
         iscomplited: true,
         date: "2024-04-22 13:55"),
     Note(
-        title: "darslar2",
-        text: "17:00 duahnba shanba",
+        title: "Dars qilish",
+        text: "17:00 dushanba shanba",
         iscomplited: false,
         date: "2024-04-22 13:55"),
     Note(
-        title: "darslar3",
-        text: "17:00 duahnba shanba",
+        title: "Suzish",
+        text: "17:00 dushanba shanba",
         iscomplited: true,
         date: "2024-04-22 13:55"),
     Note(
-        title: "darslar4",
-        text: "17:00 duahnba shanba",
+        title: "Kitob o'qish",
+        text: "17:00 dushanba shanba",
         iscomplited: false,
         date: "2024-04-22 13:55"),
     Note(
-        title: "darslar5",
-        text: "17:00 duahnba shanba",
+        title: "Kimdir",
+        text: "17:00 dushanba shanba",
         iscomplited: true,
         date: "2024-04-22 13:55"),
   ];

@@ -35,9 +35,7 @@ class _MyAppState extends State<MyApp> {
                       scaffoldBackgroundColor: AppConstants.bodyDark),
                   themeMode: SettingPortal.of(context).themeMode,
                   home: HomeScreen(),
-                  // home: PasswordCheck(
-                  //   onThemeModeChanged: changeThemeMode,
-                  // ),
+               
                 ),
               );
             });
