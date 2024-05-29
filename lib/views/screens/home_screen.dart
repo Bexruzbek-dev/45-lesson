@@ -20,33 +20,10 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.blue,
         appBar: AppBar(
           title: const Text("Home Screen"),
+          centerTitle: true,
           actions: [
             Row(
-              children: [
-                DropdownButton(
-                  value: selectedLanduage,
-                  items: const [
-                    DropdownMenuItem(
-                      value: "Uz",
-                      child: Text("Uz"),
-                    ),
-                    DropdownMenuItem(
-                      value: "Ru",
-                      child: Text("Ru"),
-                    ),
-                    DropdownMenuItem(
-                      value: "Eng",
-                      child: Text("Eng"),
-                    )
-                  ],
-                  onChanged: (newvalue) {
-                    setState(() {
-                      selectedLanduage = newvalue!;
-                    });
-                  },
-                ),
-                const Gap(20)
-              ],
+              children: [const Gap(20)],
             ),
           ],
         ),
