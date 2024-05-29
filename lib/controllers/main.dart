@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:uzgaruvchi/controllers/setting_controller.dart';
-import 'package:uzgaruvchi/poral/settings_portal.dart';
+import 'package:uzgaruvchi/portal/settings_portal.dart';
 import 'package:uzgaruvchi/utils/app_constats.dart';
 import 'package:uzgaruvchi/views/screens/home_screen.dart';
 
